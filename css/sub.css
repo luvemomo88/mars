@@ -89,3 +89,47 @@
 .mfp-title {
   font-size: 60px;
 }
+
+@media (max-width: 1300px) {
+  .grid-item,
+  .grid-sizer {
+    width: 31%;
+    margin: 10%;
+  }
+}
+
+@media (max-width: 930px) {
+  .grid-item,
+  .grid-sizer {
+    width: 46%;
+  }
+  .gallery_btns {
+  }
+
+  .gallery_btn {
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .grid-item,
+  .grid-sizer {
+    width: 96%;
+  }
+  .gallery_btn {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 4px;
+  }
+}
+
+@media (max-width: 320px) {
+  .gallery_btn {
+    width: 60px;
+    margin: 0 2px;
+  }
+}
